@@ -7,3 +7,7 @@ package:
       version: 1.0
       location: src/greeting.js
       runtime: nodejs@6
+      inputs:
+        place:
+          type: String
+          description: A value for this parameter which is set as default.
